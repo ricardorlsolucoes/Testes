@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Exo 2', sans-serif;
+    background-image: linear-gradient(100deg,
+     rgb(18, 127, 115), rgb(20, 7, 55));
+}
+
+.box{
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    padding: 80px;
+    border-radius: 5%;
+    color: #fff;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(77, 77, 136);
+    cursor: pointer;
+}
